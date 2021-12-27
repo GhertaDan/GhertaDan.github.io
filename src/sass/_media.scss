@@ -1,0 +1,30 @@
+@media (max-width: 991px) {
+    .promo {
+        padding: 21px 40px 93px 40px;
+    }
+    .advantage{
+        &__header {
+            font-weight: 500;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__oficial {
+            font-size: 11px;
+        }
+        span {
+            font-size: 16px;
+        }
+    }
+
+    .promo {
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            font-size: 21px;
+        }
+    }
+}

@@ -18,6 +18,11 @@
 a {
     text-decoration: none
 }
+iframe {
+    width: 100%;
+    height: 630px;
+    border: 0;
+}
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
